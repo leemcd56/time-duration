@@ -4,7 +4,7 @@ This library was created to make parsing time entered into a task manager as eas
 
 ## Requirements
 
-- PHP 5.8 or higher
+- PHP 5.6 or higher
 - Composer (if used as library)
 
 ## How to Use
