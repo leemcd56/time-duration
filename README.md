@@ -1,11 +1,20 @@
 # Time Duration
 
+[![Latest Stable Version](https://img.shields.io/packagist/v/magicspacepanda/time-duration.svg?style=flat-square)](https://packagist.org/packages/magicspacepanda/time-duration)
+[![Build Status](https://travis-ci.com/leemcd56/time-duration.svg?branch=master)](https://travis-ci.com/leemcd56/time-duration)
+
 This library was created to make parsing time entered into a task manager as easy as it is on popular apps like [Harvest](https://getharvest.com/) or [Tempo for JIRA](https://marketplace.atlassian.com/vendors/6558/tempo-for-jira).
 
 ## Requirements
 
 - PHP 7.2 or higher
 - Composer (if used as library)
+
+## Install
+
+### With Composer
+
+`composer require magicspacepanda/time-duration`
 
 ## How to Use
 
