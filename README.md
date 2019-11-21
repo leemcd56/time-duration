@@ -1,4 +1,4 @@
-# Time Interval
+# Time Duration
 
 This library was created to make parsing time entered into a task manager as easy as it is on popular apps like [Harvest](https://getharvest.com/) or [Tempo for JIRA](https://marketplace.atlassian.com/vendors/6558/tempo-for-jira).
 
