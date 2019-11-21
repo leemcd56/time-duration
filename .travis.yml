@@ -1,11 +1,11 @@
 language: php
 
 php:
-  - 7.1
+  - 7.2
   - 7.3
   - 7.4
 
-before_script:
-  - composer install
+install:
+  - composer install --no-suggest --prefer-stable --prefer-lowest
 
 script: phpunit
