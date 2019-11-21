@@ -5,7 +5,10 @@ php:
   - 7.3
   - 7.4
 
+before_install:
+  - composer self-update
+
 install:
-  - composer install --no-suggest --prefer-stable --prefer-lowest
+  - composer update --no-suggest --prefer-stable --prefer-lowest
 
 script: phpunit
