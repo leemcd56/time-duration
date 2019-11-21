@@ -5,7 +5,7 @@ namespace MagicSpacePanda;
 use MagicSpacePanda\Traits\CreatesTime;
 use DateTime;
 
-class TimeInterval
+class TimeDuration
 {
     use CreatesTime;
 

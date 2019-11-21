@@ -1,5 +1,5 @@
 {
-    "name": "magicspacepanda/time-interval",
+    "name": "magicspacepanda/time-duration",
     "description": "Convert durations into human-readable timestamps.",
     "type": "library",
     "license": "MIT",
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MagicSpacePanda\\": "src/TimeInterval"
+            "MagicSpacePanda\\": "src/TimeDuration"
         }
     },
     "autoload-dev": {
