@@ -1,5 +1,5 @@
 {
-    "name": "magicspacepanda/time-interval",
+    "name": "magicspacepanda/time-duration",
     "description": "Convert durations into human-readable timestamps.",
     "type": "library",
     "license": "MIT",
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MagicSpacePanda\\": "src/TimeInterval"
+            "MagicSpacePanda\\": "src/TimeDuration"
         }
     },
     "autoload-dev": {
@@ -34,9 +34,9 @@
         "test": "phpunit --verbose"
     },
     "require": {
-        "php": "^7.1.8"
+        "php": "^7.2 || ^8.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.4"
+        "phpunit/phpunit": "^8.0"
     }
 }

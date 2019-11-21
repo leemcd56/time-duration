@@ -1,0 +1,13 @@
+language: php
+
+php:
+  - 7.2
+  - 7.3
+
+before_install:
+  - composer self-update
+
+install:
+  - composer update --no-suggest --prefer-stable --prefer-lowest
+
+script: phpunit
